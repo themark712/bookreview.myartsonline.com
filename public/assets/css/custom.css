@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "stonersport";
+    src: url("../fonts/Stonersport-Regular.ttf");
+}
+
+@font-face {
+    font-family: "quicksand";
+    src: url("../fonts/Quicksand_Book.otf");
+}
+
+@font-face {
+    font-family: "comfortaa";
+    src: url("../fonts/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+    font-family: "musicnet";
+    src: url("../fonts/MUSICNET.ttf");
+}
+
+@font-face {
+    font-family: "old-newspaper-type";
+    src: url("../fonts/OldNewspaperTypes.ttf");
+}
+
+div.main {
+  min-height: 500px;
+}
+/* h1,h2,h3 {
+    font-family: "stonersport";
+} */
+
+.music {
+    font-family: "musicnet";
+}
+
+.news {
+    font-family: "old-newspaper-type";
+}
+
+span.q {
+    font-family: "quicksand";
+    font-size: 1.2rem;
+}
+
+span.c {
+    font-family: "comfortaa";
+    font-size: 1.2rem;
+}
+
+.sub {
+    border-radius: 5px;
+    height:1.5rem;
+    font-size:0.85rem;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.form-select {
+  padding:0 10px;
+}
+
+#bookgenres {
+  height:200px;
+}
+textarea.review {
+  height:300px;
+}
+.review-image {
+  width:15%;
+}
+@media (min-width: 768px) {
+    .sidebar .offcanvas-lg {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 48px;
+    }
+    .navbar-search {
+      display: block;
+    }
+  }
+  
+  .sidebar .nav-link {
+    font-size: .875rem;
+    font-weight: 500;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #2470dc;
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+  }
+  
+  .title-link {
+    text-decoration: none;
+  }
